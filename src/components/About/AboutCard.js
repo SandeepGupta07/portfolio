@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sandeep Gupta </span>
             from <span className="purple"> Jalandhar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />I'm a, passionate self-taught full stack web developer and a freelance software engineer from india.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
