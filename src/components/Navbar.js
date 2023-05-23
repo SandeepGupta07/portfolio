@@ -4,13 +4,15 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/sandeep.png";
 import { Link } from "react-router-dom";
+import pdf from "../Assets/Sandeep Kumar.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import Button from "react-bootstrap/Button";
+
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -79,16 +81,16 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+              <Button
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                style={{ maxWidth: "250px",marginTop:10 }}
+                size="sm"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+                &nbsp;View Resume
+              </Button>
             </Nav.Item>
-
-
           </Nav>
         </Navbar.Collapse>
       </Container>

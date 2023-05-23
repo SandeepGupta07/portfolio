@@ -23,7 +23,7 @@ function Home2() {
 
               I'm Sandeep Gupta, a passionate self-taught <b className="purple"> full stack web developer </b> and a freelance software engineer from india. <br /><br />
               My passion for software lies with dreaming up ideas and making them come true with elegant interfaces.
-              I take great care in the experience,<b className="purple"> Web Technologies, architecture</b> and <b className="purple">code quality</b> of the things I build.
+              I take great care in the experience,<b className="purple"> Web Technologies, architecture</b> and <b className="purple">code quality</b> of the things I build
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -33,7 +33,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and NEST.js</b>
               </i>
 
               <br /><br />
