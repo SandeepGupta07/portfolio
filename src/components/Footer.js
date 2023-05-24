@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiOutlineTwitter,
+//   AiFillInstagram,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -17,10 +17,11 @@ function Footer() {
           <h3>Designed and Developed by Sandeep</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Sandeep Gupta</h3>
+          {/* <h3>Copyright © {year} Sandeep Gupta</h3> */}
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+        <h3>Copyright © {year}, Sandeep Gupta</h3>
+          {/* <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="#"
@@ -61,7 +62,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>
