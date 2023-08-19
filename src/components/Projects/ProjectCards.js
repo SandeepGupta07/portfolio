@@ -18,15 +18,12 @@ function ProjectCards(props) {
         />
       </Carousel.Item>
       )
-
       setSlides(items);
-      
     }
   },[props.imgPath])
 
   return (
     <Card className="project-card-view">
-      {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
       <Carousel fade>
       {slides}
     </Carousel>
